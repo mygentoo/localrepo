@@ -49,3 +49,10 @@ Use git clone to download the repo structure into **/var/db/repos**:
     gentoo /var/db/repos # ls
     localrepo
 
+Configure your localrepo in **/etc/portage/repos.conf**:
+
+    [localrepo]
+    location = /var/db/repos/localrepo
+    auto-sync = no
+
+
