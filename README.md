@@ -56,3 +56,21 @@ Configure your localrepo in **/etc/portage/repos.conf**:
     auto-sync = no
 
 
+### 3.) emerge terragrunt-bin
+
+You're now be able to emerge terragrunt-bin:
+
+    gentoo /var/db/repos/localrepo # emerge -s terragrunt
+
+    [ Results for search key : terragrunt ]
+    Searching...
+
+    *  app-admin/terragrunt-bin
+          Latest version available: 0.28.2
+          Latest version installed: 0.28.2
+          Size of files: 35,841 KiB
+          Homepage:      https://www.gruntwork.io
+          Description:   A thin wrapper for Terraform
+          License:       MIT
+
+    [ Applications found : 1 ]
